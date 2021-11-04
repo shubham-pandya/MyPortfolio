@@ -1203,6 +1203,9 @@ textarea:focus {
 ==================================================*/
 
 @media (max-width: 991px) {
+    .widthless{
+        width: 100%;
+    }
     .portfolio .categories-grid span {
         margin-bottom: 0;
         text-align: center;
