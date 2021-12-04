@@ -1,9 +1,3 @@
-/*
-* Box Theme
-* Created by : Ahmed Eissa
-* website : www.ahmedessa.net
-* behance : https://www.behance.net/3essa
-*/
 
 
 /* Table of Content
@@ -472,6 +466,11 @@ h5 {
 .box-intro .table-cell {
     display: table-cell;
     vertical-align: middle;
+}
+
+#width-reduce {
+    width: 80%;
+    overflow-x: hidden;
 }
 
 .box-intro em {
@@ -1270,5 +1269,20 @@ textarea:focus {
     .top-bar h1 {
         font-size: 30px;
         line-height: 30px;
+    }
+}
+
+@media only screen and (min-width: 1024.1px) {
+    #twoo {
+        left: 19vh;
+    }
+    #threee {
+        left: 3vh;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    #twoo {
+        left: 24vh;
     }
 }
