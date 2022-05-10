@@ -26,6 +26,27 @@
 /* General
 ==================================================*/
 
+/* width */
+::-webkit-scrollbar {
+  width: 7px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: rgba(255, 255, 255,0.1);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 4px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
 html,
 body {
     height: 100%;
@@ -70,7 +91,7 @@ a {
 }
 
 .color {
-    color: #ffbf00;
+    color: #2c7dec;
     font-size: 11px;
 }
 
@@ -79,17 +100,17 @@ a {
 ==================================================*/
 
 h1 {
-    color: #393939;
+    color: #252525;
     font-size: 60px;
     text-transform: uppercase;
 }
 
 h3 {
-    color: #393939;
+    color: #252525;
 }
 
 h5 {
-    color: #ffbf00;
+    color: #2c7dec;
 }
 
 
@@ -131,7 +152,7 @@ h5 {
     width: 100%;
     height: 100%;
     border-radius: 50%;
-    background-color: #ffbf00;
+    background-color: #2c7dec;
     opacity: 0.6;
     position: absolute;
     top: 0;
@@ -143,6 +164,16 @@ h5 {
 .double-bounce2 {
     -webkit-animation-delay: -1.0s;
     animation-delay: -1.0s;
+}
+
+.double-bounce11,
+.double-bounce21 {
+    background-color: #f9a826;
+}
+
+.double-bounce12,
+.double-bounce22 {
+    background-color: #FF1557;
 }
 
 @-webkit-keyframes bounce {
@@ -248,7 +279,7 @@ h5 {
     transform: translateX(-50%) translateY(-50%);
     width: 30px;
     height: 2.5px;
-    background-color: #393939;
+    background-color: #252525;
     -webkit-transition: background-color 0.3s;
     transition: background-color 0.3s;
     list-style: none;
@@ -260,7 +291,7 @@ h5 {
     width: 100%;
     height: 100%;
     position: absolute;
-    background-color: #393939;
+    background-color: #252525;
     right: 0;
     -webkit-transition: -webkit-transform .3s, top .3s, background-color 0s;
     -webkit-transition: top .3s, background-color 0s, -webkit-transform .3s;
@@ -381,7 +412,7 @@ h5 {
 }
 
 .box-primary-nav .box-label {
-    color: #ffbf00;
+    color: #2c7dec;
     text-transform: uppercase;
     font-weight: 700;
     font-size: 17px;
@@ -419,7 +450,7 @@ h5 {
 
 .card-title a {
     font-weight: 600;
-    color: #393939;
+    color: #252525;
 }
 
 .card-title a:hover {
@@ -478,7 +509,7 @@ h5 {
 }
 
 b i:last-child {
-    color: #ffbf00 !important;
+    color: #2c7dec !important;
 }
 
 .box-intro h5 {
@@ -755,7 +786,7 @@ b i:last-child {
 
 .portfolio .categories-grid .categories ul li a.active {
     margin-left: 0;
-    background-color: #ffbf00;
+    background-color: #2c7dec;
     padding: 0px 20px;
     color: white;
     border-radius: 25px;
@@ -812,7 +843,7 @@ b i:last-child {
 .portfolio_item .portfolio_item_hover .item_info em {
     font-style: normal;
     display: inline-block;
-    background-color: #ffbf00;
+    background-color: #2c7dec;
     padding: 5px 20px;
     border-radius: 25px;
     color: #333;
@@ -896,11 +927,32 @@ footer img {
     right: 10px;
     text-align: center;
     color: #fff;
-    background: rgba(255, 191, 0, 0.8);
+    background: rgba(	18, 96, 204, 0.7);
     visibility: hidden;
     opacity: 0;
     -webkit-transition: opacity .3s 0s, visibility 0s .3s;
     transition: opacity .3s 0s, visibility 0s .3s;
+    border-radius: 7px;
+}
+
+.cd-top:hover {
+  background: rgba(18, 96, 204, 1) !important;
+}
+
+.cd-top2 {
+  background: rgba(249, 168, 38, 0.8) !important;
+}
+
+.cd-top2:hover {
+  background: rgba(249, 168, 38, 1) !important;
+}
+
+.cd-top3 {
+  background: rgba(255, 21, 87, 0.8) !important;
+}
+
+.cd-top3:hover {
+  background: rgba(255, 21, 87, 1) !important;
 }
 
 .cd-top.cd-is-visible,
@@ -922,7 +974,6 @@ footer img {
 
 .no-touch .cd-top:hover,
 .no-touch .cd-top:focus {
-    background-color: #ffbf00;
     opacity: 1;
     color: #fff;
 }
@@ -931,18 +982,28 @@ footer img {
 /* About page
 ==================================================*/
 .dine-out-top {
-    background: -webkit-linear-gradient( rgba(255, 255, 255, .6), rgba(255, 255, 255, .6    )), url(../img/portfolio/01.jpg) !important;
-    background: linear-gradient( rgba(255, 255, 255, .6), rgba(255, 255, 255, .6)), url(../img/portfolio/01.jpg) !important;
+    background: -webkit-linear-gradient( rgba(255, 255, 255, .6), rgba(255, 255, 255, .6    )), url(../img/portfolio/01.1.png) !important;
+    background: linear-gradient( rgba(255, 255, 255, .6), rgba(255, 255, 255, .6)), url(../img/portfolio/01.1.png) !important;
+    background-size: 100% 100% !important;
+}
+
+.virtual-vivah-top {
+    background: -webkit-linear-gradient( rgba(255, 255, 255, .6), rgba(255, 255, 255, .6    )), url(../img/portfolio/02.1.png) !important;
+    background: linear-gradient( rgba(255, 255, 255, .6), rgba(255, 255, 255, .6)), url(../img/portfolio/02.1.png) !important;
+    background-size: 100% 100% !important;
+}
+
+.workspace-top {
+    background: -webkit-linear-gradient( rgba(255, 255, 255, .6), rgba(255, 255, 255, .6    )), url(../img/portfolio/03.1.png) !important;
+    background: linear-gradient( rgba(255, 255, 255, .6), rgba(255, 255, 255, .6)), url(../img/portfolio/03.1.png) !important;
+    background-size: 100% auto !important;
 }
 
 .top-bar {
     color: #333;
     padding: 150px 0 150px;
-    background: -webkit-linear-gradient( rgba(255, 255, 255, .6), rgba(255, 255, 255, .6    )), url(../img/portfolio/03.jpg);
-    background: linear-gradient( rgba(255, 255, 255, .6), rgba(255, 255, 255, .6)), url(../img/portfolio/03.jpg);
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: center center;
+    background: -webkit-linear-gradient( rgba(255, 255, 255, .6), rgba(255, 255, 255, .6)), url(../img/portfolio/01.jpg);
+    background: linear-gradient( rgba(255, 255, 255, .6), rgba(255, 255, 255, .6)), url(../img/portfolio/01.jpg);
     text-align: center;
 }
 
@@ -950,7 +1011,7 @@ footer img {
     font-size: 60px;
     text-transform: uppercase;
     font-weight: 700;
-    color: #111;
+    color: #252525;
     line-height: 50px;
 }
 
@@ -1093,7 +1154,7 @@ footer img {
 
 .input-contact > span.active,
 .textarea-contact > span.active {
-    color: #ffbf00;
+    color: #2c7dec;
     font-size: 10px;
     top: 0px;
     left: 5px;
@@ -1114,7 +1175,7 @@ textarea:focus {
     height: 30px;
     width: 30px;
     display: inline-block;
-    background: #ffbf00;
+    background: #2c7dec;
     text-align: center;
     line-height: 33px;
     margin-right: 10px;
@@ -1128,7 +1189,7 @@ textarea:focus {
 }
 
 .btn-box {
-    background: #ffbf00;
+    background: #2c7dec;
     padding: 10px 50px;
     border-radius: 0;
     color: #fff;
@@ -1154,7 +1215,15 @@ textarea:focus {
 .indicator{
     height: 36px;
     width: 7px;
-    background-color: #ffbf00;
+    background-color: #F9A826;
+    float: left;
+    top: 22px;
+    position: relative;
+}
+.indicator2{
+    height: 36px;
+    width: 7px;
+    background-color: #FF1557;
     float: left;
     top: 22px;
     position: relative;
@@ -1166,13 +1235,13 @@ textarea:focus {
 
 .cat-ul li i {
     margin-right: 10px;
-    color: #ffbf00;
+    color: #2c7dec;
 }
 
 .mainn{
     font-weight: bolder;
     font-size: 36px;
-    color: #111;
+    color: #252525;
     margin-left: 20px;
 }
 
