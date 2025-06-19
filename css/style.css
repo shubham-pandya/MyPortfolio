@@ -1573,3 +1573,23 @@ textarea:focus {
     margin-top: 100px;
     width: 400px;
 }
+
+.figma-embed {
+    max-width: 100%;
+    margin: 40px auto;
+  }
+  
+  .figma-embed iframe {
+    width: 100%;
+    height: 700px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+  }
+
+  @media (max-width: 600px) {
+    .figma-embed iframe {
+      height: 500px;
+      width: 50%;
+      margin: 0 25%;
+    }
+  }
+  
