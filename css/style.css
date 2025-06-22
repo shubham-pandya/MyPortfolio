@@ -1287,7 +1287,7 @@ textarea:focus {
 }
 
 .widthless {
-    width: 70%;
+    width: 70% !important;
     color: #4c4c4c;
 }
 
@@ -1306,6 +1306,7 @@ textarea:focus {
     color: #4c4c4c;
     font-weight: 500;
     width: 100%;
+    font-size: 16px;
 }
 
 .clr1{
@@ -1315,6 +1316,7 @@ textarea:focus {
     text-align: center;
     color: #4c4c4c;
     padding: 0 !important;
+    font-size: 16px;
 }
 
 /* Responsive media queries
@@ -1322,7 +1324,7 @@ textarea:focus {
 
 @media (max-width: 991px) {
     .widthless{
-        width: 100%;
+        width: 100% !important;
     }
     .portfolio .categories-grid span {
         margin-bottom: 0;
@@ -1592,4 +1594,16 @@ textarea:focus {
       margin: 0 25%;
     }
   }
+
+  
+  #ujm {
+    width: 80%;
+  }
+
+  @media (max-width: 992px) {
+    #ujm {
+      width: 100%;
+    }
+  }
+  
   
